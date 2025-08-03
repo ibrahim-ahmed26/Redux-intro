@@ -3,6 +3,7 @@ import Customer from "./features/customers/Customer";
 import AccountOperations from "./features/accounts/AccountOperations";
 import BalanceDisplay from "./features/accounts/BalanceDisplay";
 import { useSelector } from "react-redux";
+
 function App() {
   const fullname = useSelector((store) => store.customer.fullname);
   return (
