@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 
-function formatCurrency(value, currency) {
+function formatCurrency(value) {
   return new Intl.NumberFormat("en", {
     style: "currency",
     currency: "USD",

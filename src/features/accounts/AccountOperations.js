@@ -8,6 +8,7 @@ function AccountOperations() {
   const [loanAmount, setLoanAmount] = useState("");
   const [loanPurpose, setLoanPurpose] = useState("");
   const [currency, setCurrency] = useState("USD");
+
   const {
     balance,
     loanPuporse: currentLoanPurpose,
