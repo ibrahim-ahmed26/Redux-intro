@@ -44,7 +44,6 @@ function AccountOperations() {
   function handlePayLoan() {
     dispatch(payLoan());
   }
-
   return (
     <div className="account-operations">
       <h2 className="account-title">Your account operations</h2>
